@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio_setup_and_mobile_version_skeleton",
+  "version": "1.0.0",
+  "description": "This is the mobile version he portfolio. Only two sections of the portfolio has been made.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Micky373/Portfolio_setup_and_mobile_version_skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Micky373/Portfolio_setup_and_mobile_version_skeleton/issues"
+  },
+  "homepage": "https://github.com/Micky373/Portfolio_setup_and_mobile_version_skeleton#readme",
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

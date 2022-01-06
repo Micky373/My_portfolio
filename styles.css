@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  padding: 0 20px;
+  background-color: #3c3a39;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  height: 500px;
+  background-color: #1c1a19;
+  padding: 0 24px 130px 24px;
+  background-image: url("./images/Intro_background_image.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.name {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  color: #ff6b00;
+  padding-top: 120px;
+}
+
+.name > h1 {
+  margin: auto;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.content > h3 {
+  font-family: roboto, sans-serif;
+  color: #fff5e1;
+  font-size: 24px;
+  line-height: 32px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.content > p {
+  font-family: poppins, sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.socials {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.socials > li {
+  list-style-type: none;
+}
+
+.fab {
+  color: #dbd8d7;
+}
