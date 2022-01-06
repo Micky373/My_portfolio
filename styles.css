@@ -17,6 +17,11 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .intro {
   height: 500px;
   background-color: #1c1a19;
