@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -15,15 +16,17 @@ body {
   height: 50px;
   color: white;
 }
+
 .intro {
-  height: 600px;
+  height: 500px;
   background-color: #1c1a19;
-  padding: 0px 24px 130px 24px;
+  padding: 0 24px 130px 24px;
   background-image: url("./images/Intro_background_image.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
 }
+
 .name {
   font-family: Crete Round, sans-serif;
   font-style: normal;
