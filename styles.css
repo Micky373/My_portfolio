@@ -353,3 +353,15 @@ button:active {
   color: white;
   padding: 10px 10px;
 }
+
+.motivation{
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #172B4D;
+padding: 130px 24px 24px 24px;
+}
