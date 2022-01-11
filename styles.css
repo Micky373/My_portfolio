@@ -378,4 +378,26 @@ form {
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
+  width: 327px;
+}
+
+.comment_button{
+  align-self: center;
+}
+
+#comment{
+  border: 0;
+  height: 150px;
+  width: 327px;
+  background: #FBF8F7;
+}
+
+::placeholder{
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
