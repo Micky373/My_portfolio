@@ -373,7 +373,7 @@ form {
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
-  width: 327px;
+  width: 400px;
   padding-left: 15px;
 }
 
@@ -384,7 +384,7 @@ form {
 #comment {
   border: 0;
   height: 150px;
-  width: 327px;
+  width: 400px;
   background: #fbf8f7;
   padding-left: 15px;
   padding-top: 10px;
