@@ -188,12 +188,7 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(./images/Personal_art.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 345px;
@@ -352,4 +347,99 @@ button:active {
   list-style-type: none;
   color: white;
   padding: 10px 10px;
+}
+
+.motivation {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+  padding: 130px 24px 24px 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 24px;
+}
+
+.form input {
+  border: 0;
+  border-bottom: 1px solid #dbd8d7;
+  width: 400px;
+  padding-left: 15px;
+}
+
+.comment_button {
+  align-self: center;
+}
+
+#comment {
+  border: 0;
+  height: 150px;
+  width: 400px;
+  background: #fbf8f7;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+::placeholder {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+textarea {
+  padding-top: 10px;
+  line-height: 24px;
+}
+
+#full_name,
+#email {
+  height: 50px;
+}
+
+.rectangle {
+  padding: 100px 15px 15px 15px;
+}
+
+.footer_line {
+  color: #dfe1e6;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.socials_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 20px;
+  padding: 10px 20px 0 20px;
+  color: #505f79;
+  align-items: center;
+}
+
+.socials_bottom .fab {
+  color: #505f79;
+}
+
+.bottom_footer_line {
+  border: 3px solid #0d151e;
+  border-radius: 10px;
+  width: 120px;
 }
