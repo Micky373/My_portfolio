@@ -2,7 +2,7 @@
 
 This is the mobile version he portfolio. 
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.PNG)
 
 ## Built With
 
