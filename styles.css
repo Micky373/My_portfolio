@@ -188,12 +188,7 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(./images/Personal_art.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 345px;
@@ -355,12 +350,12 @@ button:active {
 }
 
 .motivation {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
   padding: 130px 24px 24px 24px;
@@ -389,20 +384,19 @@ form {
 #comment {
   border: 0;
   height: 150px;
-  width: 327px;
+  width: 400px;
   background: #fbf8f7;
   padding-left: 15px;
   padding-top: 10px;
-  width: 400px;
 }
 
 ::placeholder {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -429,10 +423,9 @@ textarea {
   justify-content: center;
   gap: 20px;
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
   color: #505f79;
   align-items: center;
-  padding: 0;
 }
 
 .socials_bottom .fab {
