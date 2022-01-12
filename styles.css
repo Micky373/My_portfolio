@@ -364,7 +364,7 @@ button:active {
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   gap: 25px;
   padding: 24px;
@@ -418,12 +418,17 @@ textarea {
   color: #dfe1e6;
 }
 
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
 .socials_bottom {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
   font-size: 20px;
-  padding-top: 10px;
+  padding: 10px 20px 0 20px;
   color: #505f79;
   align-items: center;
 }
@@ -433,8 +438,8 @@ textarea {
 }
 
 .bottom_footer_line {
-  margin-top: 18px;
+  /* margin: 5px auto; */
   border: 3px solid #0d151e;
   border-radius: 10px;
-  width: 134px;
+  width: 120px;
 }

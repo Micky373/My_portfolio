@@ -16,6 +16,7 @@ This is the mobile version portfolio.
 ## Authors
 
 👤 **Michael Tamirie**
+👤 **Luis Pomare**
 
 - GitHub: [@Michael_Tamirie](https://github.com/Micky373)
 - LinkedIn: [Michael_Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
