@@ -18,13 +18,13 @@ This is the mobile version portfolio.
 👤 **Michael Tamirie**
 
 - GitHub: [@Michael_Tamirie](https://github.com/Micky373)
-- LinkedIn: [Michael_Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab
+- LinkedIn: [MichaelTamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
 
 👤 **Luis Pomare**
 
--GitHub: [Luis Pomare](https://github.com/luis-pomare)
--Twitter: [@LuisPomare](https://twitter.com/LuisPomare1)
--LinkedIn: [Luis_Pomare](https://www.linkedin.com/in/luis-pomare-388116225/)
+- GitHub: [@luispomare](https://github.com/luis-pomare)
+- Twitter: [@luispomare](https://twitter.com/LuisPomare1)
+- LinkedIn: [Luis_Pomare](https://linkedin.com/in/linkedinhandle)
 
 Give a ⭐️ if you like this project!
 
