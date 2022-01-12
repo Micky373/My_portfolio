@@ -378,21 +378,25 @@ form {
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
-  width: 327px;
+  width: 400px;
+  padding-left: 15px;
 }
 
-.comment_button{
+.comment_button {
   align-self: center;
 }
 
-#comment{
+#comment {
   border: 0;
   height: 150px;
   width: 327px;
-  background: #FBF8F7;
+  background: #fbf8f7;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 400px;
 }
 
-::placeholder{
+::placeholder {
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -400,4 +404,14 @@ form {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+textarea {
+  padding-top: 10px;
+  line-height: 24px;
+}
+
+#full_name,
+#email {
+  height: 50px;
 }
