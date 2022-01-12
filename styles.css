@@ -418,11 +418,12 @@ textarea {
   color: #dfe1e6;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   justify-items: center;
 }
+
 .socials_bottom {
   display: flex;
   justify-content: center;
@@ -438,7 +439,6 @@ textarea {
 }
 
 .bottom_footer_line {
-  /* margin: 5px auto; */
   border: 3px solid #0d151e;
   border-radius: 10px;
   width: 120px;
