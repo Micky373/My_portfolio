@@ -415,3 +415,33 @@ textarea {
 #email {
   height: 50px;
 }
+
+.rectangle {
+  padding: 100px 15px 15px 15px;
+}
+
+.footer_line {
+  color: #dfe1e6;
+}
+
+.socials_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #505f79;
+  align-items: center;
+  padding: 0;
+}
+
+.socials_bottom .fab {
+  color: #505f79;
+}
+
+.bottom_footer_line {
+  margin-top: 18px;
+  border: 3px solid #0d151e;
+  border-radius: 10px;
+  width: 134px;
+}
