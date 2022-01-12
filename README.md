@@ -1,6 +1,6 @@
 # My portfolio mobile-version
 
-This is the mobile version he portfolio. 
+This is the mobile version portfolio. 
 
 ![screenshot](./screenshot.PNG)
 
