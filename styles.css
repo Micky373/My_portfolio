@@ -67,7 +67,7 @@ a {
 
 .socials {
   display: flex;
-  width: 200px;
+  width: 50%;
   justify-content: space-between;
   font-size: 20px;
   padding-top: 20px;
@@ -150,7 +150,6 @@ li {
 
 button {
   height: 48px;
-  width: 150px;
   left: 0;
   top: 259px;
   border-radius: 0;
@@ -223,7 +222,6 @@ button:active {
 .grid-item .tags {
   display: flex;
   gap: 15px;
-  width: 300px;
   padding: 0 15px;
 }
 
@@ -284,12 +282,11 @@ button:active {
 }
 
 .description_about_my_self button {
-  width: 200px;
   margin-left: 24px;
 }
 
 .description_about_my_self > hr {
-  width: 360px;
+  width: 75%;
   border-color: #fff;
   padding: 0 24px 0 24px;
 }
@@ -364,16 +361,15 @@ button:active {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   gap: 25px;
-  padding: 35px;
+  padding: 30px 10px;
+  width: 90%;
 }
 
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
-  width: 400px;
+  width: 100%;
   padding-left: 15px;
 }
 
@@ -384,7 +380,7 @@ form {
 #comment {
   border: 0;
   height: 150px;
-  width: 400px;
+  width: 100%;
   background: #fbf8f7;
   padding-left: 15px;
   padding-top: 10px;
