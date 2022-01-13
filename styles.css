@@ -191,7 +191,7 @@ button:active {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 345px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -243,7 +243,8 @@ button:active {
 
 .grid-item > button {
   width: 100%;
-  margin-bottom: 100px;
+  margin-top: 0;
+  height: auto;
 }
 
 .about-me {
