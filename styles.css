@@ -124,6 +124,7 @@ li {
   display: flex;
   gap: 15px;
   padding: 0;
+  width: 80%;
 }
 
 .recent_works li {
