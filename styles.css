@@ -122,7 +122,7 @@ li {
 
 .recent_works .tags {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   padding: 0;
   width: 60%;
 }
