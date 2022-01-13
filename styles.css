@@ -122,9 +122,10 @@ li {
 
 .recent_works .tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 0;
-  width: 35%;
+  width: 100%;
 }
 
 .recent_works li {
