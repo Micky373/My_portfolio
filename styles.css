@@ -17,6 +17,10 @@ body {
   color: white;
 }
 
+.desktop_toolbar {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -32,14 +36,11 @@ a {
   background-position-y: bottom;
 }
 
-.name {
+.intro h1 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   color: #ff6b00;
   padding-top: 120px;
-}
-
-.name > h1 {
   margin: auto;
   font-weight: lighter;
   padding-bottom: 10px;
@@ -89,7 +90,7 @@ li {
   padding: 100px 45px;
 }
 
-.recent_works > h3 {
+.works_title > h3 {
   text-align: center;
   color: #1c1a19;
   font-family: Crete Round, sans-serif;
@@ -99,9 +100,9 @@ li {
   line-height: 52px;
 }
 
-.recent_works > hr {
+.works_title > hr {
   width: 100%;
-  border-color: #212121;
+  border-color: #e5e5e5;
 }
 
 .recent_works img {
@@ -189,7 +190,12 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -442,4 +448,94 @@ textarea {
   border: 3px solid #0d151e;
   border-radius: 10px;
   width: 120px;
+}
+
+@media (min-width: 992px) {
+  .toolbar {
+    display: none;
+  }
+  .desktop_toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    background-color: #3e3c3c;
+  }
+  .desktop_toolbar h3 {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+  }
+  .desktop_options {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .intro {
+    height: 600px;
+    background-color: #1c1a19;
+    background-image: url("./images/Illustration-header.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    display: flex;
+    background-size: 45%;
+  }
+  .intro .social_icons {
+    order: -1;
+    display: flex;
+    padding-left: 20px;
+  }
+  .intro .content {
+    width: 50%;
+    padding: 80px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .content h1 {
+    font-family: Crete Round, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 85px;
+    margin: 0;
+    height: fit-content;
+  }
+  .content h3 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+  }
+  .content p {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .socials {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+    padding: 0 50px 0 15px;
+    align-content: center;
+  }
 }
