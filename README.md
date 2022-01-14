@@ -13,7 +13,7 @@ This is the my portfolio.
 
 ## Live Demo
 
-[Live Demo Link](https://micky373.github.io/Portfolio_setup_and_mobile_version_skeleton/)
+[Live Demo Link](https://micky373.github.io/My_portfolio/)
 
 ## Authors
 
