@@ -21,6 +21,10 @@ body {
   display: none;
 }
 
+#desktop_version_grid {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -182,7 +186,7 @@ button:active {
   color: #f4f1f0;
 }
 
-.grid-container {
+#mobile_version_grid {
   display: grid;
   padding: 25px;
   gap: 24px;
@@ -454,6 +458,10 @@ textarea {
   .toolbar {
     display: none;
   }
+
+  #mobile_version_grid {
+    display: none;
+  }
   .desktop_toolbar {
     display: flex;
     justify-content: space-between;
@@ -462,7 +470,7 @@ textarea {
   }
   .desktop_toolbar h3 {
     font-family: Inter, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -473,7 +481,7 @@ textarea {
   .desktop_options {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 20px;
   }
   .intro {
     height: 600px;
@@ -537,5 +545,70 @@ textarea {
     height: 100%;
     padding: 0 50px 0 15px;
     align-content: center;
+  }
+  .recent_works {
+    padding: 80px;
+  }
+  .works_title {
+    display: flex;
+    align-items: center;
+  }
+  .works_title h3 {
+    text-align: left;
+  }
+  .works_title hr {
+    height: 0;
+    width: 65%;
+  }
+  .headlines {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .headlines .image_headline img {
+    width: 500px;
+    height: 400px;
+  }
+  .headlines .discription_headline {
+    padding: 20px 0 20px 20px;
+    font-family: Crete Round;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+  }
+
+  .headlines .discription_headline .tags {
+    flex-wrap: nowrap;
+    margin: 20px 0 20px 0;
+  }
+  #desktop_version_grid {
+    clear: both;
+    display: grid;
+    padding: 25px;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    height: auto;
+  }
+  .grid-item > button {
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+  }
+  .grid-item {
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/Personal_art.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .grid-item h3 {
+    padding-top: 80px;
   }
 }
