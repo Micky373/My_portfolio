@@ -305,7 +305,7 @@ button:active {
   padding: 0 24px 0 24px;
 }
 
-.language_framework_and_skills {
+.language_frameworks_and_skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -593,8 +593,8 @@ textarea {
   }
   .grid-item > button {
     width: 100%;
-    margin-top: 30px;
-    height: auto;
+    /* margin-top: 75px; */
+    height: 50px;
   }
   .grid-item {
     background: linear-gradient(
@@ -610,5 +610,52 @@ textarea {
   }
   .grid-item h3 {
     padding-top: 80px;
+  }
+  .about-me {
+    /* padding-top: 75px; */
+    height: 600px;
+    background-color: #1c1a19;
+    background-image: url("./images/About-me-illustration-img.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 90px;
+    background-size: 40%;
+    height: auto;
+  }
+  .image-container {
+    background-image: none;
+    height: 200px;
+  }
+  .description_about_my_self {
+    font-family: Crete Round;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 140px;
+    /* padding-top: 50px; */
+  }
+  .description_about_my_self p {
+    width: 50%;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .description_about_my_self hr {
+    width: auto;
+  }
+  .language_frameworks_and_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 24px 100px 10px;
+    gap: 100px;
   }
 }
