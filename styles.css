@@ -658,4 +658,36 @@ textarea {
     padding: 100px 24px 100px 10px;
     gap: 100px;
   }
+  .motivation_and_form {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .motivation {
+    text-align: left;
+    padding: 130px 50px 200px 130px;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 35%;
+  }
+  .form {
+    width: 65%;
+    padding-top: 130px;
+  }
+  .rectangle {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+  .bottom_footer_line {
+    display: none;
+  }
+  .socials_bottom {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
 }
