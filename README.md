@@ -1,8 +1,10 @@
-# My portfolio mobile-version
+# My portfolio 
 
-This is the mobile version portfolio. 
+This is the my portfolio. 
 
 ![screenshot](./screenshot.PNG)
+
+![screenshot](./screenshot_desktop.PNG)
 
 ## Built With
 
