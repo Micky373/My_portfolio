@@ -28,11 +28,18 @@
       <a href="#" class="logo"><h3>Micky's</h3></a>
       <nav><i class="fa fa-bars" aria-hidden="true"></i></nav>
     </header>
-    <section class="intro">
-      <div class="name">
-        <h1>Hey There.<br />I'm Michael</h1>
+    <header class="desktop_toolbar">
+      <h3>Micky's</h3>
+      <div class="desktop_options">
+        <h3>Portfolio</h3>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        <h3><i class="fa fa-envelope" aria-hidden="true"></i></h3>
       </div>
+    </header>
+    <section class="intro">
       <div class="content">
+        <h1>Hey There.<br />I'm Michael</h1>
         <h3>I’am a Software Developer</h3>
         <p>
           I can help you build a product , feature or website Look through some
@@ -40,45 +47,53 @@
           you need coded, don’t hesitate to contact me.
         </p>
       </div>
-      <ul class="socials">
-        <li>
-          <a href=""><i class="fab fa-github"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fab fa-linkedin-in"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fab fa-angellist"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fab fa-medium-m"></i></a>
-        </li>
-      </ul>
+      <div class="social_icons">
+        <ul class="socials">
+          <li>
+            <a href=""><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-angellist"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-medium-m"></i></a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="recent_works">
-      <h3>My Recent Works</h3>
-      <hr />
+      <div class="works_title">
+        <h3>My Recent Works</h3>
+        <hr />
+      </div>
       <div class="headlines">
-        <img src="./images/Img_Placeholder.png" alt="Image place holder" />
-        <h4>Multi-Post Stories</h4>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
+        <div class="image_headline">
+          <img src="./images/Img_Placeholder.png" alt="Image place holder" />
+        </div>
+        <div class="discription_headline">
+          <h4>Multi-Post Stories</h4>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="tags">
+            <li>css</li>
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Rubby</li>
+          </ul>
+          <button type="button">See Project</button>
+        </div>
       </div>
-      <ul class="tags">
-        <li>css</li>
-        <li>html</li>
-        <li>bootstrap</li>
-        <li>Rubby</li>
-      </ul>
-      <button type="button">See Project</button>
     </section>
-    <section class="grid-container">
+    <section class="grid-container" id="mobile_version_grid">
       <div class="grid-item">
         <div class="grid-item-headline">
           <h3>Professional Art <br />Printing Data</h3>
@@ -155,6 +170,98 @@
         <button type="button">See Project</button>
       </div>
       <div class="grid-item">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+    </section>
+    <section class="grid-container" id="desktop_version_grid">
+      <div class="grid-item" id="item-1">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="grid-item" id="item-2">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="grid-item" id="item-3">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="grid-item" id="item-4">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="grid-item" id="item-5">
+        <div class="grid-item-headline">
+          <h3>Professional Art <br />Printing Data</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="tags">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Rubby</li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="grid-item" id="item-6">
         <div class="grid-item-headline">
           <h3>Professional Art <br />Printing Data</h3>
           <p>
@@ -184,68 +291,85 @@
         </div>
         <hr />
       </div>
-      <ul class="language_framework_and_skills">
-        <li class="language">Language</li>
-        <li class="my_skills">Javascript</li>
-        <li class="my_skills">Tuby</li>
-        <li class="my_skills">Html</li>
-        <li class="my_skills">Css</li>
-        <li class="frameworks">Frameworks</li>
-        <li class="my_skills">Bootstrap</li>
-        <li class="my_skills">Ruby on Rails</li>
-        <li class="my_skills">RSPec</li>
-        <li class="my_skills">Capy Bara</li>
-        <li class="my_skills">Solenium</li>
-        <li class="skills">Skills</li>
-        <li class="my_skills">Codekit</li>
-        <li class="my_skills">Github</li>
-        <li class="my_skills">Codepen</li>
-        <li class="my_skills">Gitlab</li>
-        <li class="my_skills">Terminal</li>
-      </ul>
+      <div class="language_frameworks_and_skills">
+        <div class="languag_skillset">
+          <ul>
+            <li class="language">Language</li>
+            <li class="my_skills">Javascript</li>
+            <li class="my_skills">Tuby</li>
+            <li class="my_skills">Html</li>
+            <li class="my_skills">Css</li>
+          </ul>
+        </div>
+        <div class="frameworks_skillset">
+          <ul>
+            <li class="frameworks">Frameworks</li>
+            <li class="my_skills">Bootstrap</li>
+            <li class="my_skills">Ruby on Rails</li>
+            <li class="my_skills">RSPec</li>
+            <li class="my_skills">Capy Bara</li>
+            <li class="my_skills">Solenium</li>
+          </ul>
+        </div>
+        <div class="skills_skillset">
+          <ul>
+            <li class="skills">Skills</li>
+            <li class="my_skills">Codekit</li>
+            <li class="my_skills">Github</li>
+            <li class="my_skills">Codepen</li>
+            <li class="my_skills">Gitlab</li>
+            <li class="my_skills">Terminal</li>
+          </ul>
+        </div>
+      </div>
     </section>
-    <section class="motivation">
-      <p>
-        I'm always<br />
-        interested in hearing <br />
-        about new projects,<br />
-        so if you'd like to chat please get in <br />
-        touch.
-      </p>
-    </section>
-    <section class="form">
-      <form action="https://formspree.io/f/xeqnejbr" method="post">
-        <div>
-          <input
-            type="text"
-            id="full_name"
-            placeholder="Full name"
-            name="Full_name"
-            maxlength="30"
-            required
-          />
-        </div>
-        <div>
-          <input type="email" id="email" placeholder="Email" name="Email address" required />
-        </div>
-        <div>
-          <textarea
-            id="comment"
-            placeholder="Enter text here"
-            name="Comment"
-            maxlength="500"
-            required
-          ></textarea>
-        </div>
-        <div class="comment_button">
-          <button type="submit">Get in touch</button>
-        </div>
-      </form>
-      <div class="rectangle">
-        <hr class="footer_line" />
+    <section class="motivation_and_form">
+      <div class="motivation">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+      </div>
+      <div class="form">
+        <form action="https://formspree.io/f/xeqnejbr" method="post">
+          <div>
+            <input
+              type="text"
+              id="full_name"
+              placeholder="Full name"
+              name="Full_name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              name="Email address"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              id="comment"
+              placeholder="Enter text here"
+              name="Comment"
+              maxlength="500"
+              required
+            ></textarea>
+          </div>
+          <div class="comment_button">
+            <button type="submit">Get in touch</button>
+          </div>
+        </form>
       </div>
     </section>
     <section class="footer">
+      <div class="rectangle">
+        <hr class="footer_line" />
+      </div>
       <ul class="socials_bottom">
         <li>
           <a href=""><i class="fab fa-github"></i></a>

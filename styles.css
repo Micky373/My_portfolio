@@ -17,6 +17,14 @@ body {
   color: white;
 }
 
+.desktop_toolbar {
+  display: none;
+}
+
+#desktop_version_grid {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -32,14 +40,11 @@ a {
   background-position-y: bottom;
 }
 
-.name {
+.intro h1 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   color: #ff6b00;
   padding-top: 120px;
-}
-
-.name > h1 {
   margin: auto;
   font-weight: lighter;
   padding-bottom: 10px;
@@ -89,7 +94,7 @@ li {
   padding: 100px 45px;
 }
 
-.recent_works > h3 {
+.works_title > h3 {
   text-align: center;
   color: #1c1a19;
   font-family: Crete Round, sans-serif;
@@ -99,9 +104,9 @@ li {
   line-height: 52px;
 }
 
-.recent_works > hr {
+.works_title > hr {
   width: 100%;
-  border-color: #212121;
+  border-color: #e5e5e5;
 }
 
 .recent_works img {
@@ -181,7 +186,7 @@ button:active {
   color: #f4f1f0;
 }
 
-.grid-container {
+#mobile_version_grid {
   display: grid;
   padding: 25px;
   gap: 24px;
@@ -295,7 +300,7 @@ button:active {
   padding: 0 24px 0 24px;
 }
 
-.language_framework_and_skills {
+.language_frameworks_and_skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -442,4 +447,263 @@ textarea {
   border: 3px solid #0d151e;
   border-radius: 10px;
   width: 120px;
+}
+
+@media (min-width: 992px) {
+  .toolbar {
+    display: none;
+  }
+
+  #mobile_version_grid {
+    display: none;
+  }
+
+  .desktop_toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    background-color: #3e3c3c;
+  }
+
+  .desktop_toolbar h3 {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+  }
+
+  .desktop_options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .intro {
+    height: 600px;
+    background-color: #1c1a19;
+    background-image: url("./images/Illustration-header.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    display: flex;
+    background-size: 45%;
+  }
+
+  .intro .social_icons {
+    order: -1;
+    display: flex;
+    padding-left: 20px;
+  }
+
+  .intro .content {
+    width: 50%;
+    padding: 80px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .content h1 {
+    font-family: Crete Round, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top: 85px;
+    margin: 0;
+  }
+
+  .content h3 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0;
+  }
+
+  .content p {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .socials {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+    padding: 0 50px 0 15px;
+    align-content: center;
+  }
+
+  .recent_works {
+    padding: 80px;
+  }
+
+  .works_title {
+    display: flex;
+    align-items: center;
+  }
+
+  .works_title h3 {
+    text-align: left;
+  }
+
+  .works_title hr {
+    height: 0;
+    width: 65%;
+  }
+
+  .headlines {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .headlines .image_headline img {
+    width: 500px;
+    height: 400px;
+  }
+
+  .headlines .discription_headline {
+    padding: 20px 0 20px 20px;
+    font-family: Crete Round, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+  }
+
+  .headlines .discription_headline .tags {
+    flex-wrap: nowrap;
+    margin: 20px 0 20px 0;
+  }
+
+  #desktop_version_grid {
+    clear: both;
+    display: grid;
+    padding: 25px;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    height: auto;
+  }
+
+  .grid-item > button {
+    width: 100%;
+    height: 50px;
+  }
+
+  .grid-item {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .grid-item h3 {
+    padding-top: 80px;
+  }
+
+  .about-me {
+    background-color: #1c1a19;
+    background-image: url("./images/About-me-illustration-img.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 90px;
+    background-size: 40%;
+    height: auto;
+  }
+
+  .image-container {
+    background-image: none;
+    height: 200px;
+  }
+
+  .description_about_my_self {
+    font-family: Crete Round, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 140px;
+  }
+
+  .description_about_my_self p {
+    width: 50%;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .description_about_my_self hr {
+    width: auto;
+  }
+
+  .language_frameworks_and_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 24px 100px 10px;
+    gap: 100px;
+  }
+
+  .motivation_and_form {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .motivation {
+    text-align: left;
+    padding: 130px 50px 200px 130px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    width: 35%;
+  }
+
+  .form {
+    width: 65%;
+    padding-top: 130px;
+  }
+
+  .rectangle {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+
+  .bottom_footer_line {
+    display: none;
+  }
+
+  .socials_bottom {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
 }
