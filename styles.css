@@ -194,12 +194,7 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(./images/Personal_art.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -462,27 +457,31 @@ textarea {
   #mobile_version_grid {
     display: none;
   }
+
   .desktop_toolbar {
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 150px;
     background-color: #3e3c3c;
   }
+
   .desktop_toolbar h3 {
     font-family: Inter, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: white;
   }
+
   .desktop_options {
     display: flex;
     justify-content: space-between;
     gap: 20px;
   }
+
   .intro {
     height: 600px;
     background-color: #1c1a19;
@@ -493,11 +492,13 @@ textarea {
     display: flex;
     background-size: 45%;
   }
+
   .intro .social_icons {
     order: -1;
     display: flex;
     padding-left: 20px;
   }
+
   .intro .content {
     width: 50%;
     padding: 80px 15px;
@@ -513,31 +514,33 @@ textarea {
     font-style: normal;
     font-weight: 400;
     line-height: 82px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     padding-top: 85px;
     margin: 0;
-    height: fit-content;
   }
+
   .content h3 {
     font-family: Inter, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin: 0;
   }
+
   .content p {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
+
   .socials {
     flex-direction: column;
     gap: 20px;
@@ -546,43 +549,51 @@ textarea {
     padding: 0 50px 0 15px;
     align-content: center;
   }
+
   .recent_works {
     padding: 80px;
   }
+
   .works_title {
     display: flex;
     align-items: center;
   }
+
   .works_title h3 {
     text-align: left;
   }
+
   .works_title hr {
     height: 0;
     width: 65%;
   }
+
   .headlines {
     display: flex;
     justify-content: space-between;
     gap: 30px;
   }
+
   .headlines .image_headline img {
     width: 500px;
     height: 400px;
   }
+
   .headlines .discription_headline {
     padding: 20px 0 20px 20px;
-    font-family: Crete Round;
+    font-family: Crete Round, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .headlines .discription_headline .tags {
     flex-wrap: nowrap;
     margin: 20px 0 20px 0;
   }
+
   #desktop_version_grid {
     clear: both;
     display: grid;
@@ -591,29 +602,25 @@ textarea {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     height: auto;
   }
+
   .grid-item > button {
     width: 100%;
-    /* margin-top: 75px; */
     height: 50px;
   }
+
   .grid-item {
-    background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url(./images/Personal_art.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
     margin-top: 20px;
   }
+
   .grid-item h3 {
     padding-top: 80px;
   }
+
   .about-me {
-    /* padding-top: 75px; */
-    height: 600px;
     background-color: #1c1a19;
     background-image: url("./images/About-me-illustration-img.png");
     background-repeat: no-repeat;
@@ -622,34 +629,38 @@ textarea {
     background-size: 40%;
     height: auto;
   }
+
   .image-container {
     background-image: none;
     height: 200px;
   }
+
   .description_about_my_self {
-    font-family: Crete Round;
+    font-family: Crete Round, sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
     line-height: 82px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     padding-left: 140px;
-    /* padding-top: 50px; */
   }
+
   .description_about_my_self p {
     width: 50%;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
+
   .description_about_my_self hr {
     width: auto;
   }
+
   .language_frameworks_and_skills {
     display: flex;
     flex-direction: row;
@@ -658,34 +669,39 @@ textarea {
     padding: 100px 24px 100px 10px;
     gap: 100px;
   }
+
   .motivation_and_form {
     display: flex;
     justify-content: space-between;
     gap: 25px;
   }
+
   .motivation {
     text-align: left;
     padding: 130px 50px 200px 130px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
-    text-align: left;
+    letter-spacing: 0;
     width: 35%;
   }
+
   .form {
     width: 65%;
     padding-top: 130px;
   }
+
   .rectangle {
     padding-top: 25px;
     padding-bottom: 0;
   }
+
   .bottom_footer_line {
     display: none;
   }
+
   .socials_bottom {
     margin-top: 0;
     margin-bottom: 15px;
