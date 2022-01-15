@@ -463,18 +463,18 @@ img:hover {
 
 .logo {
   animation: Rotating_logo 3s ease;
-} 
+}
 
 @keyframes Rotating_logo {
   from {
-      transform: rotate(0deg);
-      color: white;
-        }
-  
+    transform: rotate(0deg);
+    color: white;
+  }
+
   to {
-     transform: rotate(360deg);
-     color: #ff6b00;
-      }
+    transform: rotate(360deg);
+    color: #ff6b00;
+  }
 }
 
 @media (min-width: 992px) {
