@@ -194,12 +194,7 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(./images/Personal_art.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -473,13 +468,14 @@ img:hover {
  @keyframes Rotating_logo {
   from {
       transform: rotate(0deg);
+      color: white;
         }
   
     to {
       transform: rotate(360deg);
+      color: #ff6b00;
         }
   }
-}
 
 @media (min-width: 992px) {
   .toolbar {
@@ -641,12 +637,7 @@ img:hover {
   }
 
   .grid-item {
-    background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url(./images/Personal_art.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
