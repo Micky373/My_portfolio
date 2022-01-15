@@ -466,6 +466,21 @@ img:hover {
   transform: translate(30px, 30px);
 }
 
+.logo {
+  animation: Rotating_logo 3s ease;
+} 
+
+ @keyframes Rotating_logo {
+  from {
+      transform: rotate(0deg);
+        }
+  
+    to {
+      transform: rotate(360deg);
+        }
+  }
+}
+
 @media (min-width: 992px) {
   .toolbar {
     display: none;
