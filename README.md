@@ -15,7 +15,7 @@ This is the my portfolio.
 
 [Live Demo Link](https://micky373.github.io/My_portfolio/)
 
-## Authors
+## Author
 
 👤 **Michael Tamirie**
 
