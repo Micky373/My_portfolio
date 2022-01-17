@@ -1,6 +1,6 @@
-# My portfolio 
+# My portfolio
 
-This is the my portfolio. 
+This is the my portfolio.
 
 ![screenshot](./screenshot.PNG)
 
@@ -10,10 +10,6 @@ This is the my portfolio.
 
 - HTML
 - CSS
-
-## Live Demo
-
-[Live Demo Link](https://micky373.github.io/My_portfolio/)
 
 ## Authors
 
