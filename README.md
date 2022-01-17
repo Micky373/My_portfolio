@@ -1,6 +1,6 @@
-# My portfolio 
+# My portfolio
 
-This is the my portfolio. 
+This is the my portfolio.
 
 ![screenshot](./screenshot.PNG)
 
