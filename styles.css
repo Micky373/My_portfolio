@@ -37,7 +37,7 @@ a {
   background-image: url("./images/Intro_background_image.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: 110%;
 }
 
 .intro h1 {
