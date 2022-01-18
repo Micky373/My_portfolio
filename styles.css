@@ -374,6 +374,11 @@ form {
   width: 90%;
 }
 
+form .form-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
@@ -722,6 +727,8 @@ img:hover {
 
   .form-inputs {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .rectangle {
