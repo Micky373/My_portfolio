@@ -346,8 +346,10 @@
       </div>
       <div class="form">
         <form action="https://formspree.io/f/xeqnejbr" method="post">
-          <div>
-            <input
+          <ul class="form-inputs">
+            <li>
+              <label for="full_name"></label>
+              <input
               type="text"
               id="full_name"
               placeholder="Full name"
@@ -355,8 +357,10 @@
               maxlength="30"
               required
             />
-          </div>
-          <div>
+            </li>
+
+           <li>
+            <label for="email"></label>
             <input
               type="email"
               id="email"
@@ -364,8 +368,9 @@
               name="Email address"
               required
             />
-          </div>
-          <div>
+           </li>
+            <li>
+            <label for="comment"></label>
             <textarea
               id="comment"
               placeholder="Enter text here"
@@ -373,7 +378,8 @@
               maxlength="500"
               required
             ></textarea>
-          </div>
+            </li>
+          </ul>
           <div class="comment_button">
             <button type="submit">Get in touch</button>
           </div>
