@@ -52,12 +52,11 @@ a {
   line-height: 64px;
 }
 
-.content > h3 {
+.content > h2 {
   font-family: roboto, sans-serif;
   color: #fff5e1;
   font-size: 24px;
   line-height: 32px;
-  margin: auto;
   font-weight: bold;
 }
 
@@ -194,7 +193,12 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -637,7 +641,12 @@ img:hover {
   }
 
   .grid-item {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
