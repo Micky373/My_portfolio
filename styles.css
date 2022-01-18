@@ -37,7 +37,7 @@ a {
   background-image: url("./images/Intro_background_image.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: 110%;
 }
 
 .intro h1 {
@@ -52,12 +52,11 @@ a {
   line-height: 64px;
 }
 
-.content > h3 {
+.content > h2 {
   font-family: roboto, sans-serif;
   color: #fff5e1;
   font-size: 24px;
   line-height: 32px;
-  margin: auto;
   font-weight: bold;
 }
 
@@ -373,6 +372,12 @@ form {
   gap: 25px;
   padding: 30px 10px;
   width: 90%;
+}
+
+form .form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .form input {
@@ -719,6 +724,12 @@ img:hover {
   .form {
     width: 65%;
     padding-top: 130px;
+  }
+
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .rectangle {
