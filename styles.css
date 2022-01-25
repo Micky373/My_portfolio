@@ -13,7 +13,6 @@ body {
 
 .toolbar .open {
   display: flex;
-  /* padding-left: 15px; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -67,6 +66,11 @@ body {
   transform: scale(1);
 }
 
+@media (min-width: 600px) {
+  .toolbar .open {
+    gap: 75%;
+  }
+}
 .desktop_toolbar {
   display: none;
 }
@@ -243,7 +247,12 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -692,7 +701,12 @@ img:hover {
   }
 
   .grid-item {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+    background: linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
