@@ -555,7 +555,10 @@ img:hover {
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 150px;
-    background-color: #3e3c3c;
+    background-color: rgb(62, 60, 60, 0.95);
+    position: fixed;
+    top: 0;
+    width: 80%;
   }
 
   .desktop_toolbar h3 {
