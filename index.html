@@ -39,8 +39,26 @@
   </head>
   <body>
     <header class="toolbar">
-      <a href="#" class="logo"><h3>Micky's</h3></a>
-      <nav><i class="fa fa-bars" aria-hidden="true"></i></nav>
+      <div class="mobile_menu open">
+        <a href="#" class="logo"><h3>Micky's</h3></a>
+        <nav>
+          <a href="#" id="hamburger"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+        </nav>
+      </div>
+      <ul class="menu_items" style="display: none">
+        <div class="close_button">
+          <img src="./images/close_btn.svg" alt="Closing menu button" />
+        </div>
+        <li class="goto"><a href="#Portfolio">Portfolio</a></li>
+        <hr />
+        <li class="goto"><a href="#About">About</a></li>
+        <hr />
+        <li class="goto"><a href="#Contact">Contact</a></li>
+        <hr />
+      </ul>
+    </header>
     </header>
     <header class="desktop_toolbar">
       <h3 class="logo">Micky's</h3>
