@@ -39,8 +39,22 @@
   </head>
   <body>
     <header class="toolbar">
-      <a href="#" class="logo"><h3>Micky's</h3></a>
-      <nav><i class="fa fa-bars" aria-hidden="true"></i></nav>
+      <div class="mobile_menu open">
+        <a href="#" class="logo"><h3>Micky's</h3></a>
+        <nav>
+          <a href="#" id="hamburger"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+        </nav>
+      </div>
+      <ul class="menu_items">
+        <li class="close_button">
+          <img class="x_sign" src="./images/close_btn.svg" alt="Closing menu button" />
+        </li>
+        <li class="goto"><a href="#Portfolio">Portfolio</a><hr /></li>        
+        <li class="goto"><a href="#About">About</a><hr /></li>        
+        <li class="goto"><a href="#Contact">Contact</a><hr /></li>        
+      </ul>
     </header>
     <header class="desktop_toolbar">
       <h3 class="logo">Micky's</h3>
@@ -81,7 +95,7 @@
         </ul>
       </div>
     </section>
-    <section class="recent_works">
+    <section class="recent_works" id="Portfolio">
       <div class="works_title">
         <h3>My Recent Works</h3>
         <hr />
@@ -291,7 +305,7 @@
         <button type="button">See Project</button>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="About">
       <div class="description_about_my_self">
         <h3>About Me</h3>
         <p>
@@ -337,7 +351,7 @@
         </div>
       </div>
     </section>
-    <section class="motivation_and_form">
+    <section class="motivation_and_form" id="Contact">
       <div class="motivation">
         <p>
           I'm always interested in hearing about new projects, so if you'd like
@@ -408,5 +422,6 @@
       </ul>
       <hr class="bottom_footer_line" />
     </section>
+    <script src="main.js"></script>
   </body>
 </html>

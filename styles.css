@@ -7,14 +7,89 @@ body {
   font-family: sans-serif;
 }
 
-.toolbar {
+.toolbar .mobile_menu {
+  display: none;
+}
+
+.toolbar .open {
   display: flex;
-  padding: 0 20px;
-  background-color: #3c3a39;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(60, 58, 57, 0.95);
+  justify-content: space-around;
+  gap: 60%;
   align-items: center;
   height: 50px;
   color: white;
+}
+
+.toolbar .menu_items {
+  display: none;
+}
+
+.toolbar .appear {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(60, 58, 57, 0.95);
+  justify-content: flex-start;
+  height: 100vh;
+  color: white;
+  margin-top: 0;
+}
+
+.works_title > hr {
+  width: 100%;
+  border-color: #e5e5e5;
+}
+
+.description_about_my_self > hr {
+  width: 75%;
+  border-color: #fff;
+  padding: 0 24px 0 24px;
+}
+
+.menu_items li hr {
+  width: 90%;
+  border: 1px solid #6f6c6b;
+  margin: 10px 0 10px 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu_items li {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff5e1;
+  padding: 24px 0 10px 30px;
+}
+
+.menu_items .close_button {
+  display: flex;
+}
+
+.menu_items .close_button .x_sign {
+  padding: 15px 0 20px 85%;
+  width: 25px;
+  height: 25px;
+  transform: scale(1);
+}
+
+@media (min-width: 600px) {
+  .toolbar .open {
+    gap: 75%;
+  }
 }
 
 .desktop_toolbar {
@@ -77,10 +152,6 @@ a {
   padding-top: 20px;
 }
 
-li {
-  list-style-type: none;
-}
-
 .socials > li {
   list-style-type: none;
 }
@@ -101,11 +172,6 @@ li {
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
-}
-
-.works_title > hr {
-  width: 100%;
-  border-color: #e5e5e5;
 }
 
 .recent_works img {
@@ -291,12 +357,6 @@ button:active {
 
 .description_about_my_self button {
   margin-left: 24px;
-}
-
-.description_about_my_self > hr {
-  width: 75%;
-  border-color: #fff;
-  padding: 0 24px 0 24px;
 }
 
 .language_frameworks_and_skills {
@@ -495,7 +555,10 @@ img:hover {
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 150px;
-    background-color: #3e3c3c;
+    background-color: rgb(62, 60, 60, 0.95);
+    position: fixed;
+    top: 0;
+    width: 80%;
   }
 
   .desktop_toolbar h3 {
