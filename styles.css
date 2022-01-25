@@ -44,13 +44,17 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 .menu_items li {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #fff5e1;
   padding: 24px 0 10px 30px;
@@ -59,7 +63,8 @@ body {
 .menu_items .close_button {
   display: flex;
 }
-.menu_items .close_button img {
+
+.menu_items .close_button .x_sign {
   padding: 15px 0 20px 85%;
   width: 25px;
   height: 25px;
@@ -71,6 +76,7 @@ body {
     gap: 75%;
   }
 }
+
 .desktop_toolbar {
   display: none;
 }
@@ -129,10 +135,6 @@ a {
   justify-content: space-between;
   font-size: 20px;
   padding-top: 20px;
-}
-
-li {
-  list-style-type: none;
 }
 
 .socials > li {
@@ -247,12 +249,7 @@ button:active {
 }
 
 .grid-item {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(./images/Personal_art.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
@@ -701,12 +698,7 @@ img:hover {
   }
 
   .grid-item {
-    background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url(./images/Personal_art.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
