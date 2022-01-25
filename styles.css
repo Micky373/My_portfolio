@@ -7,14 +7,64 @@ body {
   font-family: sans-serif;
 }
 
-.toolbar {
+.toolbar .mobile_menu {
+  display: none;
+}
+
+.toolbar .open {
   display: flex;
-  padding: 0 20px;
-  background-color: #3c3a39;
-  justify-content: space-between;
+  /* padding-left: 15px; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(60, 58, 57, 0.95);
+  justify-content: space-around;
+  gap: 60%;
   align-items: center;
   height: 50px;
   color: white;
+}
+
+.menu_items {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(60, 58, 57, 0.95);
+  justify-content: flex-start;
+  height: 100vh;
+  color: white;
+  margin-top: 0;
+}
+
+.menu_items hr {
+  width: 90%;
+  border: 1px solid #6f6c6b;
+  margin: 0;
+}
+
+.menu_items li {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff5e1;
+  padding: 24px 0 10px 30px;
+}
+
+.menu_items .close_button {
+  display: flex;
+}
+.menu_items .close_button img {
+  padding: 15px 0 20px 85%;
+  width: 25px;
+  height: 25px;
+  transform: scale(1);
 }
 
 .desktop_toolbar {
