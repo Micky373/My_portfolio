@@ -24,7 +24,11 @@ body {
   color: white;
 }
 
-.menu_items {
+.toolbar .menu_items {
+  display: none;
+}
+
+.toolbar .appear {
   display: flex;
   flex-direction: column;
   padding: 0 20px;
@@ -38,10 +42,21 @@ body {
   margin-top: 0;
 }
 
-.menu_items hr {
+.works_title > hr {
+  width: 100%;
+  border-color: #e5e5e5;
+}
+
+.description_about_my_self > hr {
+  width: 75%;
+  border-color: #fff;
+  padding: 0 24px 0 24px;
+}
+
+.menu_items li hr {
   width: 90%;
   border: 1px solid #6f6c6b;
-  margin: 0;
+  margin: 10px 0 10px 0;
 }
 
 li {
@@ -157,11 +172,6 @@ a {
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
-}
-
-.works_title > hr {
-  width: 100%;
-  border-color: #e5e5e5;
 }
 
 .recent_works img {
@@ -347,12 +357,6 @@ button:active {
 
 .description_about_my_self button {
   margin-left: 24px;
-}
-
-.description_about_my_self > hr {
-  width: 75%;
-  border-color: #fff;
-  padding: 0 24px 0 24px;
 }
 
 .language_frameworks_and_skills {
