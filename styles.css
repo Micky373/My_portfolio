@@ -7,6 +7,10 @@ body {
   font-family: sans-serif;
 }
 
+.blur{
+  filter: blur(20px);
+}
+
 .toolbar .mobile_menu {
   display: none;
 }
@@ -253,7 +257,6 @@ button:active {
 
 /* Pop up window styling for mobile version */
 
-
 .pop_up_window {
   display: none;  
 } 
@@ -266,10 +269,10 @@ button:active {
   padding: 10px;
   background: white;
   width: 75%;
-  height: max-content; 
+  height:auto; 
 }
 
-.pop_up_image {
+#pop_up_image {
   width: 80%;
   height: 130px;  
 }
@@ -314,10 +317,10 @@ button:active {
 .pop_up h3{
   margin: 0;
   font-family: Roboto;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
   padding-left: 0;
@@ -335,7 +338,6 @@ button:active {
 .pop_up_links{
   display: flex;
   gap: 20px;
-  padding-top: 15px;
   width: 100%;
   justify-content: center;
 }
@@ -639,103 +641,98 @@ img:hover {
   }
 
   /* Pop up window styling for Desktop version */
-  
-  .pop_up_window{
-    display: none;
-  }
 
-  .pop_up {
+.pop_up_window {
+  display: none;  
+} 
+
+.pop_up_window .active {
+  display: block;
+  position: fixed;
+  align-self: center;
+  top: 10%;
+  padding: 10px;
+  background: white;
+  width: 80%;
+  height: max-content;
+}
+
+.pop_up_image_and_content{
   display: flex;
+  gap: 25px;
+}
+
+#pop_up_image {
+  padding-right: 20px;
+  width: 400px;
+  height: 350px;  
+}
+
+.pop_up_tags{
+  gap: 10px;
+  justify-content: flex-start;
+  width: 100%;
+  margin:0
+}
+
+.pop_up li{
+  width: auto;  
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.pop_up p{  
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.pop_up_content{
+  display:flex;
+}
+
+.pop_up h3{
+  margin: 0;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 0;
+  width: 100%;
+  color: #172B4D;
+}
+
+.pop_up .close_button img{
+  padding-left: 15px 10px 35% 0;
+  width: 25px;
+  height: 25px;
+  transform: scale(1);
+}
+
+.pop_up_links{
+  display: flex;
+  gap: 20px;
+  padding: 30px 0 0 0;
+  width: 100%;
   justify-content: center;
-  }
+}
 
-  .pop_up {
-    display: block;
-    position: fixed;
-    align-self: center;
-    top: 10%;
-    padding: 10px;
-    background: white;
-    width: 80%;
-    height: max-content; 
-  }
-
-  .pop_up_image_and_content{
-    display: flex;
-    gap: 25px;
-  }
-
-  .pop_up_image {
-    padding-right: 20px;
-    width: 400px;
-    height: 350px;   
-  }
-
-  .pop_up_tags{
-    margin-top: 0;
-    gap: 10px;
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  .pop_up li{
-    width: auto;  
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 13px;
-    letter-spacing: 0em;
-    text-align: center;
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
-  .pop_up p{  
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-
-  }
-
-  .pop_up_content{
-    display:flex;
-  }
-
-  .pop_up h3{
-    margin: 0;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-left: 0;
-    width: 100%;
-    color: #172B4D;
-  }
-
-  .pop_up .close_button img{
-    padding-left: 15px 10px 35% 0;
-    width: 25px;
-    height: 25px;
-    transform: scale(1);
-  }
-
-  .pop_up_links{
-    display: flex;
-    gap: 20px;
-    padding: 30px 0 0 0;
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* End of pop up window styling for desktop version */
+/* End of pop up window styling for Desktop version */
 
   .desktop_toolbar {
     display: flex;
