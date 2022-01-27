@@ -7,6 +7,14 @@ body {
   font-family: sans-serif;
 }
 
+img:hover {
+  transform: scale(1.1);
+}
+
+.blur {
+  filter: blur(20px);
+}
+
 .toolbar .mobile_menu {
   display: none;
 }
@@ -93,10 +101,6 @@ li {
 }
 
 .desktop_toolbar {
-  display: none;
-}
-
-#desktop_version_grid {
   display: none;
 }
 
@@ -251,7 +255,108 @@ button:active {
   color: #f4f1f0;
 }
 
-#mobile_version_grid {
+/* Pop up window styling for mobile version */
+
+.pop_up_window {
+  display: none;
+}
+
+.pop_up_window .active {
+  display: block;
+  position: fixed;
+  top: 3%;
+  left: 10%;
+  padding: 10px;
+  background: white;
+  width: 75%;
+  overflow: auto;
+  z-index: 5;
+}
+
+.pop_up button {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: white;
+  margin-top: 3px;
+}
+
+#pop_up_image {
+  width: 80%;
+  height: 130px;
+}
+
+.pop_up_tags {
+  display: flex;
+  padding: 10px 0;
+  gap: 10px;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+}
+
+.pop_up li {
+  width: auto;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0;
+  text-align: center;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.pop_up p {
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 15px;
+}
+
+.pop_up_content {
+  display: flex;
+}
+
+.pop_up h3 {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 0;
+  width: 100%;
+  color: #172b4d;
+}
+
+.pop_up .close_button img {
+  padding: 15px 10px 35% 0;
+  width: 25px;
+  height: 25px;
+  transform: scale(1);
+}
+
+.pop_up_links {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* End of pop up window styling for mobile version */
+
+.grid-container {
   display: grid;
   padding: 25px;
   gap: 24px;
@@ -262,8 +367,11 @@ button:active {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: auto;
   margin-top: 20px;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
 }
 
 .grid-item h3 {
@@ -315,7 +423,6 @@ button:active {
 .grid-item > button {
   width: 100%;
   margin-top: 0;
-  height: auto;
 }
 
 .about-me {
@@ -514,14 +621,6 @@ textarea {
   width: 120px;
 }
 
-.grid-item:hover {
-  transform: scale(1.1);
-}
-
-img:hover {
-  transform: scale(1.1);
-}
-
 .motivation:hover {
   transform: translate(30px, 30px);
 }
@@ -547,9 +646,97 @@ img:hover {
     display: none;
   }
 
-  #mobile_version_grid {
+  /* Pop up window styling for Desktop version */
+
+  .pop_up_window {
     display: none;
   }
+
+  .pop_up_window .active {
+    display: block;
+    position: fixed;
+    align-self: center;
+    top: 10%;
+    padding: 10px;
+    background: white;
+    width: 80%;
+  }
+
+  .pop_up_image_and_content {
+    display: flex;
+    gap: 25px;
+  }
+
+  #pop_up_image {
+    width: 600px;
+    height: 350px;
+  }
+
+  .pop_up_tags {
+    gap: 10px;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+  }
+
+  .pop_up li {
+    width: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0;
+    text-align: center;
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .pop_up p {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top: 15px;
+  }
+
+  .pop_up_content {
+    display: flex;
+  }
+
+  .pop_up h3 {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 0;
+    width: 100%;
+    color: #172b4d;
+  }
+
+  .pop_up .close_button img {
+    padding: 15px 10px 35% 0;
+    width: 25px;
+    height: 25px;
+    transform: scale(1);
+  }
+
+  .pop_up_links {
+    display: flex;
+    gap: 20px;
+    padding: 30px 0 0 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* End of pop up window styling for Desktop version */
 
   .desktop_toolbar {
     display: flex;
@@ -690,7 +877,7 @@ img:hover {
     margin: 20px 0 20px 0;
   }
 
-  #desktop_version_grid {
+  .grid-container {
     clear: both;
     display: grid;
     padding: 25px;
