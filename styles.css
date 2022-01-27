@@ -638,10 +638,6 @@ img:hover {
     display: none;
   }
 
-  #mobile_version_grid {
-    display: none;
-  }
-
   .desktop_toolbar {
     display: flex;
     justify-content: space-between;
@@ -781,7 +777,7 @@ img:hover {
     margin: 20px 0 20px 0;
   }
 
-  #desktop_version_grid {
+  .grid-container {
     clear: both;
     display: grid;
     padding: 25px;
