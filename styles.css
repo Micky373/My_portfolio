@@ -104,10 +104,6 @@ li {
   display: none;
 }
 
-#desktop_version_grid {
-  display: none;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -273,7 +269,19 @@ button:active {
   padding: 10px;
   background: white;
   width: 75%;
-  height: auto;
+  overflow: auto;
+  z-index: 5;
+}
+
+.pop_up button {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: white;
+  margin-top: 3px;
 }
 
 #pop_up_image {
@@ -308,10 +316,10 @@ button:active {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 15px;
   letter-spacing: 0;
   text-align: left;
-  padding-top: 15px;
+  padding: 15px;
 }
 
 .pop_up_content {
@@ -652,7 +660,6 @@ textarea {
     padding: 10px;
     background: white;
     width: 80%;
-    height: max-content;
   }
 
   .pop_up_image_and_content {
@@ -661,8 +668,7 @@ textarea {
   }
 
   #pop_up_image {
-    padding-right: 20px;
-    width: 400px;
+    width: 600px;
     height: 350px;
   }
 
