@@ -89,8 +89,8 @@ const projects = [
 ];
 
 const portfolio = document.getElementById('Portfolio');
-let template = ``
-for (let i = 1; i < projects.length; i++) {
+let template = '';
+for (let i = 1; i < projects.length; i += 1) {
   template += `
   <div class="grid-item">
       <div class="grid-item-headline">
@@ -106,12 +106,12 @@ for (let i = 1; i < projects.length; i++) {
   </div>`;
 }
 
-portfolio.innerHTML = template
+portfolio.innerHTML = template;
 
 // Populating the pop up modal window
 
-let popUpTemplate = ``
-for (let i = 0; i < projects.length; i++) {
+let popUpTemplate = '';
+for (let i = 0; i < projects.length; i += 1) {
   popUpTemplate += `
         <div class="pop_up" id="${projects[i].id}">
             <div class="pop_up_content">
@@ -139,31 +139,30 @@ for (let i = 0; i < projects.length; i++) {
                     </div>
                 </div>
             </div>
-        </div>`
+        </div>`;
 }
-const popUpContainer = document.getElementById('pop_up_container')
-popUpContainer.innerHTML = popUpTemplate
+const popUpContainer = document.getElementById('pop_up_container');
+popUpContainer.innerHTML = popUpTemplate;
 
 // Popup window functionality
 
-const popUpButtons = document.querySelectorAll('.popup_display_button')
-const popUpWindow = document.querySelector('.pop_up_window')
-const closeModals = document.querySelectorAll('.close_modal')
-const mainPage = document.querySelector('.main_page')
-const popUps = document.querySelectorAll('.pop_up')
-for (let i = 0; i < popUpButtons.length; i++) {
-  popUpButtons[i].addEventListener('click', function () {
+const popUpButtons = document.querySelectorAll('.popup_display_button');
+const popUpWindow = document.querySelector('.pop_up_window');
+const closeModals = document.querySelectorAll('.close_modal');
+const mainPage = document.querySelector('.main_page');
+const popUps = document.querySelectorAll('.pop_up');
+for (let i = 0; i < popUpButtons.length; i += 1) {
+  popUpButtons[i].addEventListener('click', () => {
     popUpWindow.style.display = 'block';
     mainPage.classList.toggle('blur');
-    popUps[i].classList.toggle('active')
-  })
+    popUps[i].classList.toggle('active');
+  });
 }
 
-for (let i = 0; i < closeModals.length; i++) {
-  closeModals[i].onclick = function () {
+for (let i = 0; i < closeModals.length; i += 1) {
+  closeModals[i].onclick = () => {
     popUpWindow.style.display = 'none';
     mainPage.classList.toggle('blur');
-    popUps[i].classList.toggle('active')
-
+    popUps[i].classList.toggle('active');
   };
 }
