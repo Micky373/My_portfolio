@@ -143,3 +143,27 @@ for (let i = 0; i < projects.length; i++) {
 }
 const popUpContainer = document.getElementById('pop_up_container')
 popUpContainer.innerHTML = popUpTemplate
+
+// Popup window functionality
+
+const popUpButtons = document.querySelectorAll('.popup_display_button')
+const popUpWindow = document.querySelector('.pop_up_window')
+const closeModals = document.querySelectorAll('.close_modal')
+const mainPage = document.querySelector('.main_page')
+const popUps = document.querySelectorAll('.pop_up')
+for (let i = 0; i < popUpButtons.length; i++) {
+  popUpButtons[i].addEventListener('click', function () {
+    popUpWindow.style.display = 'block';
+    mainPage.classList.toggle('blur');
+    popUps[i].classList.toggle('active')
+  })
+}
+
+for (let i = 0; i < closeModals.length; i++) {
+  closeModals[i].onclick = function () {
+    popUpWindow.style.display = 'none';
+    mainPage.classList.toggle('blur');
+    popUps[i].classList.toggle('active')
+
+  };
+}
