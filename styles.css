@@ -541,6 +541,18 @@ form {
   width: 90%;
 }
 
+/* Form validation start */ 
+.form_controler.error input{
+  border: 1px dashed #e74c3c;
+  border-radius: 10px; } 
+  
+  .small { 
+    font-family: Crete, sans-serif; 
+    padding: 10px;
+    color: #f81f1f;
+ } 
+ /* Form validation end */ 
+
 form .form-inputs {
   display: flex;
   flex-direction: column;
