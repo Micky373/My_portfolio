@@ -541,17 +541,32 @@ form {
   width: 90%;
 }
 
-form .form-inputs {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .form input {
   border: 0;
   border-bottom: 1px solid #dbd8d7;
   width: 100%;
   padding-left: 15px;
+}
+
+/* Form validation start */
+
+.form_controler.error input {
+  border: 1px dashed #e74c3c;
+  border-radius: 10px;
+}
+
+.small {
+  font-family: Crete, sans-serif;
+  padding: 10px;
+  color: #f81f1f;
+}
+
+/* Form validation end */
+
+form .form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .comment_button {

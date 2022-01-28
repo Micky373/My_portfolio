@@ -166,3 +166,33 @@ for (let i = 0; i < closeModals.length; i += 1) {
     popUps[i].classList.toggle('active');
   };
 }
+
+// Form validation
+
+const form = document.querySelector('.contact_form');
+const email = document.getElementById('email');
+
+function isEmail(email) {
+  return email.match(/^[a-z]*$/);
+}
+
+function checkInputs() {
+  const emailValue = email.value.trim();
+  function setErrorFor(input, message) {
+    const formControl = input.parentElement;
+    const small = formControl.querySelector('small');
+    formControl.className = 'form_controler error';
+    small.innerText = message;
+  }
+
+  if (!isEmail(emailValue)) {
+    setErrorFor(email, 'The email you entered should all be in lower case');
+  } else {
+    form.submit();
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkInputs();
+});
