@@ -173,7 +173,7 @@ const form = document.querySelector('.contact_form');
 const email = document.getElementById('email');
 
 function isEmail(email) {
-  return email.match(/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,5})(\.[a-z]{2-8})?$/);
+  return email.match(/^([a-z\d.-]+)@([a-z\d-]+)\.([a-z]{2,5})\.([a-z]{2-8})?$/);
 }
 
 function checkInputs() {
@@ -196,3 +196,32 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   checkInputs();
 });
+
+// Local Storage
+
+function storeData(nameData, emailData, messageData) {
+  const formData = {
+    nameData,
+    emailData,
+    messageData,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+form.addEventListener('keyup', (e) => {
+  e.preventDefault();
+  const name = document.getElementById('full_name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('comment').value;
+  storeData(name, email, message);
+});
+
+const getData = JSON.parse(localStorage.getItem('formData'));
+
+window.onload = () => {
+  if (getData != null) {
+    document.getElementById('full_name').value = getData.nameData;
+    document.getElementById('email').value = getData.emailData;
+    document.getElementById('comment').value = getData.messageData;
+  }
+};
