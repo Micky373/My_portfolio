@@ -173,7 +173,7 @@ const form = document.querySelector('.contact_form');
 const email = document.getElementById('email');
 
 function isEmail(email) {
-  return email.match(/^[a-z]*$/);
+  return email.match(/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,5})(\.[a-z]{2-8})?$/);
 }
 
 function checkInputs() {
@@ -186,7 +186,7 @@ function checkInputs() {
   }
 
   if (!isEmail(emailValue)) {
-    setErrorFor(email, 'The email you entered should all be in lower case');
+    setErrorFor(email, 'Please enter the valid email address');
   } else {
     form.submit();
   }
