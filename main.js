@@ -173,7 +173,7 @@ const form = document.querySelector('.contact_form');
 const email = document.getElementById('email');
 
 function isEmail(email) {
-  return email.match(/^([a-z\d.-]+)@([a-z\d-]+)\.([a-z]{2,5})\.([a-z]{2-8})?$/);
+  return email.match(/^[_a-z\d*+#$%^&!-]+(\.[_a-z\d-]+)*@[a-z\d-]+(\.[a-z\d-]+)*(\.[a-z]{2,4})$/);
 }
 
 function checkInputs() {
