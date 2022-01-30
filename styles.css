@@ -264,13 +264,18 @@ button:active {
 .pop_up_window .active {
   display: block;
   position: fixed;
-  top: 3%;
+  top: 10%;
+  bottom: 10%;
   left: 10%;
+  right: 10%;
   padding: 10px;
   background: white;
-  width: 75%;
-  overflow: auto;
+  width: auto;
+  height: auto;
   z-index: 5;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 15px;
 }
 
 .pop_up button {
@@ -364,6 +369,8 @@ button:active {
 }
 
 .grid-item {
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -907,6 +914,8 @@ textarea {
   }
 
   .grid-item {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
