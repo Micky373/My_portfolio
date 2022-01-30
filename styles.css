@@ -181,7 +181,7 @@ a {
 .recent_works img {
   padding: 75px 0 24px 0;
   width: 100%;
-  height: 250px;
+  height: auto;
 }
 
 .recent_works h4 {
@@ -257,7 +257,7 @@ button:active {
 
 /* Pop up window styling for mobile version */
 
-.pop_up_window {
+.pop_up {
   display: none;
 }
 
@@ -673,7 +673,7 @@ textarea {
 
   /* Pop up window styling for Desktop version */
 
-  .pop_up_window {
+  .pop_up {
     display: none;
   }
 

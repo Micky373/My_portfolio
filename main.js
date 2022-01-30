@@ -147,13 +147,11 @@ popUpContainer.innerHTML = popUpTemplate;
 // Popup window functionality
 
 const popUpButtons = document.querySelectorAll('.popup_display_button');
-const popUpWindow = document.querySelector('.pop_up_window');
 const closeModals = document.querySelectorAll('.close_modal');
 const mainPage = document.querySelector('.main_page');
 const popUps = document.querySelectorAll('.pop_up');
 for (let i = 0; i < popUpButtons.length; i += 1) {
   popUpButtons[i].addEventListener('click', () => {
-    popUpWindow.style.display = 'block';
     mainPage.classList.toggle('blur');
     popUps[i].classList.toggle('active');
   });
@@ -161,7 +159,6 @@ for (let i = 0; i < popUpButtons.length; i += 1) {
 
 for (let i = 0; i < closeModals.length; i += 1) {
   closeModals[i].onclick = () => {
-    popUpWindow.style.display = 'none';
     mainPage.classList.toggle('blur');
     popUps[i].classList.toggle('active');
   };
