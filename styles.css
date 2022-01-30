@@ -563,6 +563,9 @@ form {
 }
 
 .small {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   font-family: Crete, sans-serif;
   padding: 10px;
   color: #f81f1f;
