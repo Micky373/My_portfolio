@@ -16,15 +16,14 @@ for (let i = 0; i < gotoItems.length; i += 1) {
 /* Populating the portfolio */
 const projects = [
   {
-    title: 'My Recent Works',
-    languages: ['html', 'Bootstrap', 'Ruby'],
-    imageUrl: './images/Img_Placeholder.png',
-    body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    title: 'Minimalist to-do list project',
+    languages: ['HTML and CSS', 'Javascript', 'Webpack'],
+    imageUrl: './images/To-do.png',
+    body: "In this minimalist to do list project I have used the best practice of java script, HTML and CSS. This project is fully responsive both for desktop and also for mobile version. Java script has been used to populate the HTML elements and CSS has been used to give the website a better look. As a measurement unit I have used rem and em to make it more adaptive to different vendors",
+    desc: "This is an easy responsive to-do list web application. You can write your tasks, edit, check completed or delete tasks. It is completely responsive and easy to use website application",
     id: 1,
-    seeLiveUrl: 'https://micky373.github.io/My_portfolio/',
-    seeSourceUrl: 'https://github.com/Micky373/My_portfolio',
-
+    seeLiveUrl: 'https://micky373.github.io/To_DO_List/dist/',
+    seeSourceUrl: 'https://github.com/Micky373/To_DO_List',
   },
   {
     title: 'Professional Art Printing Data',
