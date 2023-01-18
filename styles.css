@@ -11,6 +11,10 @@ button {
   font-family: Quintessential, sans-serif;
 }
 
+.about_me_paragraph {
+  color: #0d1b2a;
+}
+
 img:hover {
   transform: scale(1.1);
 }
@@ -139,17 +143,18 @@ a {
 
 .content > h2 {
   color: #fff5e1;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 32px;
   font-weight: bold;
 }
 
 .content > p {
-  color: white;
+  color: #0d1b2a;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
+  margin-right: 4rem;
 }
 
 .socials {
