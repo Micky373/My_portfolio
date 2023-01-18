@@ -111,7 +111,7 @@ a {
 
 .intro {
   height: 500px;
-  background-color: #1c1a19;
+  background-color: #8d99ae;
   padding: 0 24px 130px 24px;
   background-image: url("./images/Intro_background_image.png");
   background-repeat: no-repeat;
@@ -154,6 +154,10 @@ a {
   justify-content: space-between;
   font-size: 20px;
   padding-top: 20px;
+}
+
+.medium_svg {
+  width: 1rem;
 }
 
 .socials > li {
@@ -767,7 +771,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 150px;
-    background-color: rgb(62, 60, 60, 0.95);
+    background-color: #2b2d42;
     position: fixed;
     top: 0;
     width: 80%;
@@ -792,7 +796,7 @@ textarea {
 
   .intro {
     height: 600px;
-    background-color: #1c1a19;
+    background-color: #8d99ae;
     background-image: url("./images/Illustration-header.svg");
     background-repeat: no-repeat;
     background-position-x: right;
