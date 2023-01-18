@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Quintessential, sans-serif;
 }
 
 img:hover {
@@ -72,7 +72,6 @@ li {
 }
 
 .menu_items li {
-  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -120,7 +119,6 @@ a {
 }
 
 .intro h1 {
-  font-family: Crete Round, sans-serif;
   font-style: normal;
   color: #e0e1dd;
   padding-top: 120px;
@@ -136,7 +134,6 @@ a {
 }
 
 .content > h2 {
-  font-family: roboto, sans-serif;
   color: #fff5e1;
   font-size: 24px;
   line-height: 32px;
@@ -144,7 +141,6 @@ a {
 }
 
 .content > p {
-  font-family: poppins, sans-serif;
   color: white;
   font-style: normal;
   font-weight: normal;
@@ -179,7 +175,6 @@ a {
 .works_title > h3 {
   text-align: center;
   color: #1c1a19;
-  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -193,7 +188,6 @@ a {
 }
 
 .recent_works h4 {
-  font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -211,7 +205,6 @@ a {
 }
 
 .recent_works li {
-  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -223,7 +216,6 @@ a {
 }
 
 .recent_works p {
-  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -239,7 +231,6 @@ button {
   border-radius: 0;
   padding: 12px;
   background-color: #ff6b00;
-  font-family: Inter, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -313,7 +304,6 @@ button:active {
 
 .pop_up li {
   width: auto;
-  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -325,7 +315,6 @@ button:active {
 }
 
 .pop_up p {
-  font-family: Inter, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -341,7 +330,6 @@ button:active {
 
 .pop_up h3 {
   margin: 0;
-  font-family: Roboto, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -390,7 +378,6 @@ button:active {
 }
 
 .grid-item h3 {
-  font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: lighter;
@@ -405,7 +392,6 @@ button:active {
 }
 
 .grid-item p {
-  font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -426,7 +412,6 @@ button:active {
   background: rgba(255, 255, 255, 0.24);
   border: none;
   padding: 10px 12px;
-  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -455,7 +440,6 @@ button:active {
 }
 
 .description_about_my_self h3 {
-  font-family: Crete Round, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -469,7 +453,6 @@ button:active {
 
 .description_about_my_self p {
   color: #f4f5f7;
-  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -490,7 +473,6 @@ button:active {
 }
 
 .language {
-  font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -502,7 +484,6 @@ button:active {
 }
 
 .frameworks {
-  font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -514,7 +495,6 @@ button:active {
 }
 
 .skills {
-  font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -526,7 +506,6 @@ button:active {
 }
 
 .my_skills {
-  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -537,7 +516,6 @@ button:active {
 }
 
 .motivation {
-  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -574,7 +552,6 @@ form {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: Crete, sans-serif;
   padding: 10px;
   color: #f81f1f;
 }
@@ -601,7 +578,6 @@ form .form-inputs {
 }
 
 ::placeholder {
-  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -714,7 +690,6 @@ textarea {
 
   .pop_up li {
     width: auto;
-    font-family: Poppins, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -726,7 +701,6 @@ textarea {
   }
 
   .pop_up p {
-    font-family: Inter, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -742,7 +716,6 @@ textarea {
 
   .pop_up h3 {
     margin: 0;
-    font-family: Roboto, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -782,7 +755,6 @@ textarea {
   }
 
   .desktop_toolbar h3 {
-    font-family: Inter, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -825,7 +797,6 @@ textarea {
   }
 
   .content h1 {
-    font-family: Crete Round, sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -837,7 +808,6 @@ textarea {
   }
 
   .content h3 {
-    font-family: Inter, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -848,7 +818,6 @@ textarea {
   }
 
   .content p {
-    font-family: Inter, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -897,7 +866,6 @@ textarea {
 
   .headlines .discription_headline {
     padding: 20px 0 20px 20px;
-    font-family: Crete Round, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -954,7 +922,6 @@ textarea {
   }
 
   .description_about_my_self {
-    font-family: Crete Round, sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -966,7 +933,6 @@ textarea {
 
   .description_about_my_self p {
     width: 50%;
-    font-family: Inter, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -997,7 +963,6 @@ textarea {
   .motivation {
     text-align: left;
     padding: 130px 50px 200px 130px;
-    font-family: Inter, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;

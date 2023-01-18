@@ -134,7 +134,7 @@ for (let i = 0; i < projects.length; i += 1) {
                     </div>
                     <div class="pop_up_links">
                         <a href='${projects[i].seeLiveUrl}'><button type="button">See Live&nbsp;&nbsp;<i class="fa fa-signal" aria-hidden="true"></i></button></a>
-                        <a href='${projects[i].seeSourceUrl}'><button type="button">See Source&nbsp;&nbsp;<i id="github-icon-pop_up" class="fab fa-github"></i></button></a>
+                        <a href='${projects[i].seeSourceUrl}'><button type="button">See Source&nbsp;&nbsp;<i class="fa fa-github"></i></button></a>
                     </div>
                 </div>
             </div>
