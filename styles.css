@@ -117,7 +117,7 @@ a {
 }
 
 .intro {
-  height: 500px;
+  height: auto;
   background-color: #8d99ae;
   padding: 0 24px 130px 24px;
   background-image: url("./images/Intro_background_image.png");
