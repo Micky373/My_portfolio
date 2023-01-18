@@ -122,13 +122,17 @@ a {
 .intro h1 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
-  color: #ff6b00;
+  color: #e0e1dd;
   padding-top: 120px;
   margin: auto;
   font-weight: lighter;
   padding-bottom: 10px;
   font-size: 56px;
   line-height: 64px;
+}
+
+.content_header {
+  color: red;
 }
 
 .content > h2 {
