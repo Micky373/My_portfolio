@@ -68,7 +68,7 @@ const projects = [
   },
   {
     title: 'Movie recommendation system using machine learning',
-    languages: ['Python', 'Jupyter Notebook', 'Machine Learning','Streamlit'],
+    languages: ['Python','Machine Learning','Streamlit'],
     desc: "This is a simple web app built with streamlit that a user can pass a movie title and then get 10 recommendation movies to see.",
     imageUrl: './images/movie_recommender.gif',
     body: "In this project I have done an end to end movie recommender system which a user can pass the movie he/she wants and the machine learning model will recommend related movies for the user. ",
