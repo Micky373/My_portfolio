@@ -234,7 +234,7 @@ a {
 }
 
 button {
-  height: 48px;
+  height: auto;
   left: 0;
   top: 259px;
   border-radius: 0;
@@ -250,6 +250,7 @@ button {
   margin-top: 3px;
   float: left;
   border: none;
+  align-self: flex-end;
 }
 
 button:hover {
@@ -376,6 +377,7 @@ button:active {
 .grid-item {
   display: flex;
   flex-direction: column;
+  height: fit-content;
   margin-top: 20px;
 }
 
@@ -428,7 +430,8 @@ button:active {
 
 .grid-item > button {
   width: 100%;
-  margin-top: 0;
+  margin-bottom: 0;
+  align-items: flex-end;
 }
 
 .about-me {
@@ -903,7 +906,7 @@ textarea {
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: auto;
+    height: fit-content;
     margin-top: 20px;
   }
 

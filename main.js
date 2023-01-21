@@ -66,6 +66,16 @@ const projects = [
     seeLiveUrl: 'https://micky373-ai-projects-multiple-disease-prediction-0bpixm.streamlit.app/',
     seeSourceUrl: 'https://github.com/Micky373/AI_projects',
   },
+  {
+    title: 'Movie recommendation system using machine learning',
+    languages: ['Python', 'Jupyter Notebook', 'Machine Learning','Streamlit'],
+    desc: "This is a simple web app built with streamlit that a user can pass a movie title and then get 10 recommendation movies to see.",
+    imageUrl: './images/movie_recommender.gif',
+    body: "In this project I have done an end to end movie recommender system which a user can pass the movie he/she wants and the machine learning model will recommend related movies for the user. ",
+    id: 6,
+    seeLiveUrl: 'https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/',
+    seeSourceUrl: 'https://github.com/Micky373/movie_recommender',
+  },
 ];
 
 const portfolio = document.getElementById('Portfolio');
