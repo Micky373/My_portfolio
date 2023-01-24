@@ -76,6 +76,16 @@ const projects = [
     seeLiveUrl: 'https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/',
     seeSourceUrl: 'https://github.com/Micky373/movie_recommender',
   },
+  {
+    title: 'Spam message classification using machine learning',
+    languages: ['Python','Machine Learning','Streamlit'],
+    desc: "This is a simple web app built with streamlit that a user can pass any email or sms and the machine learning model will display whether the message is spam or not",
+    imageUrl: './images/spam_classifier.gif',
+    body: "In this repo I have done an end to end spam message classifier. In the website a user can pass the message and the model will predict whether the email is spam or ham. I have used a labeled data to train my model and streamlit for the UI and deployment. ",
+    id: 7,
+    seeLiveUrl: 'https://micky373-spam-classifier-spam-classifier-ibl2kp.streamlit.app/',
+    seeSourceUrl: 'https://github.com/Micky373/spam_classifier',
+  },
 ];
 
 const portfolio = document.getElementById('Portfolio');
